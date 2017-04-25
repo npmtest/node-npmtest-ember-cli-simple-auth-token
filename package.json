@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [ember-cli-simple-auth-token (v0.7.3)](https://github.com/jpadilla/ember-cli-simple-auth-token#readme) [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-simple-auth-token.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-simple-auth-token) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token)",
+    "description": "#### basic test coverage for  [ember-cli-simple-auth-token (v0.7.3)](https://github.com/jpadilla/ember-cli-simple-auth-token#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-simple-auth-token.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-simple-auth-token) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "ember-cli-simple-auth-token": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }

@@ -1,4 +1,7 @@
-# test coverage for  [ember-cli-simple-auth-token (v0.7.3)](https://github.com/jpadilla/ember-cli-simple-auth-token#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-simple-auth-token.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-simple-auth-token) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token)
+# npmtest-ember-cli-simple-auth-token
+
+#### basic test coverage for  [ember-cli-simple-auth-token (v0.7.3)](https://github.com/jpadilla/ember-cli-simple-auth-token#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ember-cli-simple-auth-token.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ember-cli-simple-auth-token) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token.svg)](https://travis-ci.org/npmtest/node-npmtest-ember-cli-simple-auth-token)
+
 #### An authenticator and authorizer for Ember Simple Auth that is compatible with token-based authentication like JWT in Ember CLI applications.
 
 [![NPM](https://nodei.co/npm/ember-cli-simple-auth-token.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ember-cli-simple-auth-token)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-simple-auth-token/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ember-cli-simple-auth-token/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ember-cli-simple-auth-token/build/coverage.html/index.html)
 
@@ -120,7 +123,8 @@
         "start": "ember server",
         "test": "ember try:testall"
     },
-    "version": "0.7.3"
+    "version": "0.7.3",
+    "bin": {}
 }
 ```
 
